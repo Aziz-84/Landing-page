@@ -2,8 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #1F2937; */
 }
-img{
+
+body{
+    width: 1280px;
+    height: 1000px;
+}
+/* Header section*/
+
+
+.logo-header{
     width: 100px;
     height: auto;
     background-color: white;
@@ -24,4 +33,44 @@ background-color: #1F2937;
     gap: 1rem;
     align-items: center;
     color: white;
+}
+
+/*Hero section*/
+.section-hero{
+
+}
+.hero{
+    height: 30rem;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.hero-info,.hero-info>h1{
+    width: 400px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 1rem;
+}
+.hero-info>h3{
+    font-size: 18px;
+    color: #E5E7EB
+}
+.image-cat{
+    width:250px;
+background-color: #1F2937;
+border-radius: 20px;
+}
+.rent-button{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #3882f6;
+    border: none;
+    outline: none;
+    color:  #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 2rem;
 }

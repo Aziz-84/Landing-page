@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100px;
+    height: auto;
+    background-color: white;
+    border-radius: 20%;
+}
+.header{
+margin-top:2rem ;
+background-color: #1F2937;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 5rem;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}

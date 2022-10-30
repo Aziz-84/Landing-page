@@ -103,3 +103,21 @@ border-radius: 20px;
     text-align: center;
    
 }
+.section-quete {
+    
+    background-color: #e5e1e1;
+    padding: 2rem;
+    
+}
+.section-quete p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+    margin: 0 auto;
+}
+.section-quete :nth-child(2){
+    text-align: right;
+    margin-left: 143px;
+margin-top: 21px;
+}
